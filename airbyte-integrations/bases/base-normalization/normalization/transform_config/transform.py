@@ -349,13 +349,14 @@ class TransformConfig:
     @staticmethod
     def transform_databricks(config: Dict[str, Any]):
         print("transform_databricks")
-        # https://github.com/pingcap/dbt-databricks#profile-configuration
+        # https://github.com/databricks/dbt-databricks/blob/main/README.md
+        # Not sure if this is correct: config names from airbyte-integrations/connectors/destination-databricks/src/main/resources/spec.json
         dbt_config = {
             "type": "databricks",
-            "schema": config["schema"],
-            "host": config["host"],
-            "http_path": config["http_path"],
-            "token": config["token"],
+            "schema": config["database_schema"],
+            "host": config["databricks_server_hostname"],
+            "http_path": config["databricks_http_path"],
+            "token": config["databricks_personal_access_token"],
         }
         return dbt_config
 

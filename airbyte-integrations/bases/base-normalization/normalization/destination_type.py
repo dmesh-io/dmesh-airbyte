@@ -16,6 +16,7 @@ class DestinationType(Enum):
     REDSHIFT = "redshift"
     SNOWFLAKE = "snowflake"
     TIDB = "tidb"
+    DATABRICKS = "databricks"
 
     @classmethod
     def from_string(cls, string_value: str) -> "DestinationType":
