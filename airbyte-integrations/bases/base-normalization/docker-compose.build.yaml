@@ -57,3 +57,10 @@ services:
       context: .
       labels:
         io.airbyte.git-revision: ${GIT_REVISION}
+  normalization-databricks:
+    image: airbyte/normalization-databricks:${VERSION}
+    build:
+      dockerfile: databricks.Dockerfile
+      context: .
+      labels:
+        io.airbyte.git-revision: ${GIT_REVISION}

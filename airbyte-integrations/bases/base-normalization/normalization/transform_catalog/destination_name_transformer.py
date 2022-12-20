@@ -29,6 +29,8 @@ DESTINATION_SIZE_LIMITS = {
     DestinationType.CLICKHOUSE.value: 63,
     # https://docs.pingcap.com/tidb/stable/tidb-limitations
     DestinationType.TIDB.value: 64,
+    # Nothing found just use minimum
+    DestinationType.DATABRICKS.value: 63,
 }
 
 # DBT also needs to generate suffix to table names, so we need to make sure it has enough characters to do so...

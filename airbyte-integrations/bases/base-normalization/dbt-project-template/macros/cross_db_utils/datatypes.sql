@@ -140,6 +140,10 @@
     float
 {% endmacro %}
 
+{% macro databricks__type_numeric() %}
+    float
+{% endmacro %}
+
 {# very_large_integer --------------------------------------- --#}
 {#
 Most databases don't have a true unbounded numeric datatype, so we use a really big numeric field.
@@ -167,6 +171,10 @@ so this macro needs to be called very_large_integer.
 {% endmacro %}
 
 {% macro tidb__type_very_large_integer() %}
+    decimal(38, 0)
+{% endmacro %}
+
+{% macro databricks__type_very_large_integer() %}
     decimal(38, 0)
 {% endmacro %}
 
@@ -287,6 +295,9 @@ so this macro needs to be called very_large_integer.
     time
 {% endmacro %}
 
+{% macro databricks__type_time_without_timezone() %}
+    String
+{% endmacro %}
 
 {# time with time zone  -------------------------------------------------     #}
 
@@ -329,6 +340,10 @@ so this macro needs to be called very_large_integer.
 {%- macro tidb__type_time_with_timezone() -%}
     char(1000)
 {%- endmacro -%}
+
+{% macro databricks__type_time_with_timezone() %}
+    String
+{% endmacro %}
 
 {# date  -------------------------------------------------     #}
 

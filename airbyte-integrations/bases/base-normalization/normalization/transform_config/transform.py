@@ -59,6 +59,7 @@ class TransformConfig:
             DestinationType.MSSQL.value: self.transform_mssql,
             DestinationType.CLICKHOUSE.value: self.transform_clickhouse,
             DestinationType.TIDB.value: self.transform_tidb,
+            DestinationType.DATABRICKS.value: self.transform_databricks,
         }[integration_type.value](config)
 
         # merge pre-populated base_profile with destination-specific configuration.
@@ -342,6 +343,19 @@ class TransformConfig:
             "database": config["database"],
             "username": config["username"],
             "password": config.get("password", ""),
+        }
+        return dbt_config
+
+    @staticmethod
+    def transform_databricks(config: Dict[str, Any]):
+        print("transform_databricks")
+        # https://github.com/pingcap/dbt-databricks#profile-configuration
+        dbt_config = {
+            "type": "databricks",
+            "schema": config["schema"],
+            "host": config["host"],
+            "http_path": config["http_path"],
+            "token": config["token"],
         }
         return dbt_config
 

@@ -1791,8 +1791,8 @@
           default: true
           order: 8
     supportsIncremental: true
-    supportsNormalization: false
-    supportsDBT: false
+    supportsNormalization: true
+    supportsDBT: true
     supported_destination_sync_modes:
     - "overwrite"
     - "append"

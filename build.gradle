@@ -117,6 +117,7 @@ def createSpotlessTarget = { pattern ->
             'dbt-project-template-clickhouse',
             'dbt-project-template-snowflake',
             'dbt-project-template-tidb',
+            'dbt-project-template-databricks',
             'dbt_test_config',
             'normalization_test_output',
             'tools',

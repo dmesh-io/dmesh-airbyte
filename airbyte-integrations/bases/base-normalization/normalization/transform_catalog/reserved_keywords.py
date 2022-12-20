@@ -3110,6 +3110,26 @@ TIDB = {
     "ZEROFILL",
 }
 
+# https://docs.databricks.com/sql/language-manual/sql-ref-reserved-words.html
+DATABRICKS = {
+    "ANTI",
+    "CROSS",
+    "EXCEPT",
+    "FULL",
+    "INNER",
+    "INTERSECT",
+    "JOIN",
+    "LATERAL",
+    "LEFT",
+    "MINUS",
+    "NATURAL",
+    "ON",
+    "RIGHT",
+    "SEMI",
+    "UNION",
+    "USING",
+}
+
 RESERVED_KEYWORDS = {
     DestinationType.BIGQUERY.value: BIGQUERY,
     DestinationType.POSTGRES.value: POSTGRES,
@@ -3120,6 +3140,7 @@ RESERVED_KEYWORDS = {
     DestinationType.MSSQL.value: MSSQL,
     DestinationType.CLICKHOUSE.value: CLICKHOUSE,
     DestinationType.TIDB.value: TIDB,
+    DestinationType.DATABRICKS.value: DATABRICKS,
 }
 
 
