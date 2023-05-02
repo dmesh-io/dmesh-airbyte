@@ -1,3 +1,6 @@
 {
-  "todo-wrong-field": "this should be an incomplete config file, used in standard tests"
+  "auth_token": "illegalauthtoken",
+  "organization_name": "meinias",
+  "id_site": 6,
+  "format": "json"
 }
