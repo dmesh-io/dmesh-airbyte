@@ -1,840 +1,863 @@
- {
-   "$schema": "http://json-schema.org/schema#",
-   "properties": {
-     "actionDetails": {
-       "items": {
-         "properties": {
-           "contentInteraction": {
-             "type": "null"
-           },
-           "contentName": {
-             "type": "string"
-           },
-           "contentPiece": {
-             "type": "string"
-           },
-           "contentTarget": {
-             "type": "string"
-           },
-           "converted": {
-             "type": "string"
-           },
-           "customVariables": {
-             "properties": {
-               "1": {
-                 "properties" : {
-                   "customVariablePageName1" : {
-                     "type" : "string"
-                   },
-                   "customVariablePageValue1" : {
-                     "type" : "string"
-                   }
-                 },
-                 "type" : [
-                   "object",
-                   "null"
-                 ]
-               },
-               "2": {
-                 "properties" : {
-                   "customVariablePageName2" : {
-                     "type" : "string"
-                   },
-                   "customVariablePageValue2" : {
-                     "type" : "string"
-                   }
-                 },
-                 "type" : [
-                   "object",
-                   "null"
-                 ]
-               },
-               "3": {
-                 "properties" : {
-                   "customVariablePageName3" : {
-                     "type" : "string"
-                   },
-                   "customVariablePageValue3" : {
-                     "type" : "string"
-                   }
-                 },
-                 "type" : [
-                   "object",
-                   "null"
-                 ]
-               },
-               "4": {
-                 "properties" : {
-                   "customVariablePageName4" : {
-                     "type" : "string"
-                   },
-                   "customVariablePageValue4" : {
-                     "type" : "string"
-                   }
-                 },
-                 "type" : [
-                   "object",
-                   "null"
-                 ]
-               },
-               "5": {
-                 "properties" : {
-                   "customVariablePageName5" : {
-                     "type" : "string"
-                   },
-                   "customVariablePageValue5" : {
-                     "type" : "string"
-                   }
-                 },
-                 "type" : [
-                   "object",
-                   "null"
-                 ]
-               }
-             },
-             "type": ["array"]
-           },
-           "dimension2": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "dimension4": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "dimension5": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "eventAction": {
-             "type": "string"
-           },
-           "eventCategory": {
-             "type": "string"
-           },
-           "eventName": {
-             "type": "string"
-           },
-           "eventValue": {
-             "type": "integer"
-           },
-           "fields": {
-             "items": {
-               "properties": {
-                 "fieldName": {
-                   "type": "string"
-                 },
-                 "leftBlank": {
-                   "type": "string"
-                 },
-                 "submitted": {
-                   "type": "string"
-                 },
-                 "timeHesitation": {
-                   "type": "string"
-                 },
-                 "timeSpent": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             },
-             "type": "array"
-           },
-           "formId": {
-             "type": "string"
-           },
-           "formName": {
-             "type": "string"
-           },
-           "formStatus": {
-             "type": "string"
-           },
-           "fullscreen": {
-             "type": "string"
-           },
-           "goalId": {
-             "type": "string"
-           },
-           "goalName": {
-             "type": "string"
-           },
-           "goalPageId": {
-             "type": "string"
-           },
-           "icon": {
-             "type": "string"
-           },
-           "iconSVG": {
-             "type": "string"
-           },
-           "idpageview": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "idsite": {
-             "type": "string"
-           },
-           "itemDetails": {
-             "items": {
-               "properties": {
-                 "categories": {
-                   "items": {
-                     "type": "string"
-                   },
-                   "type": "array"
-                 },
-                 "itemCategory": {
-                   "type": "string"
-                 },
-                 "itemName": {
-                   "type": "string"
-                 },
-                 "itemSKU": {
-                   "type": "string"
-                 },
-                 "price": {
-                   "type": [
-                     "integer",
-                     "string"
-                   ]
-                 },
-                 "quantity": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             },
-             "type": "array"
-           },
-           "items": {
-             "type": "string"
-           },
-           "leftBlank": {
-             "type": "integer"
-           },
-           "media_length": {
-             "type": "string"
-           },
-           "media_progress": {
-             "type": "string"
-           },
-           "media_title": {
-             "type": "string"
-           },
-           "media_type": {
-             "type": "string"
-           },
-           "orderId": {
-             "type": "string"
-           },
-           "pageId": {
-             "type": "string"
-           },
-           "pageIdAction": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "pageTitle": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "pageviewPosition": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "player_name": {
-             "type": "string"
-           },
-           "referrerKeyword": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "referrerName": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "referrerType": {
-             "type": "string"
-           },
-           "resolution": {
-             "type": "string"
-           },
-           "revenue": {
-             "type": [
-               "integer",
-               "string"
-             ]
-           },
-           "revenueDiscount": {
-             "type": [
-               "integer",
-               "string"
-             ]
-           },
-           "revenueShipping": {
-             "type": "integer"
-           },
-           "revenueSubTotal": {
-             "type": "integer"
-           },
-           "revenueTax": {
-             "type": [
-               "integer",
-               "string"
-             ]
-           },
-           "serverTimePretty": {
-             "type": "string"
-           },
-           "siteSearchCategory": {
-             "type": "string"
-           },
-           "siteSearchCount": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "siteSearchKeyword": {
-             "type": "string"
-           },
-           "submitted": {
-             "type": "integer"
-           },
-           "subtitle": {
-             "type": "string"
-           },
-           "timeHesitation": {
-             "type": "string"
-           },
-           "timeSpent": {
-             "type": [
-               "integer",
-               "string"
-             ]
-           },
-           "timeSpentPretty": {
-             "type": "string"
-           },
-           "timeToFirstSubmission": {
-             "type": "string"
-           },
-           "time_to_initial_play": {
-             "type": "string"
-           },
-           "timestamp": {
-             "type": "integer"
-           },
-           "title": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "type": {
-             "type": "string"
-           },
-           "url": {
-             "type": [
-               "null",
-               "string"
-             ]
-           },
-           "watched_time": {
-             "type": "string"
-           }
-         },
-         "type": "object"
-       },
-       "type": "array"
-     },
-     "actions": {
-       "type": "string"
-     },
-     "adClickId": {
-       "type": "string"
-     },
-     "adProviderId": {
-       "type": "string"
-     },
-     "adProviderName": {
-       "type": "string"
-     },
-     "browser": {
-       "type": "string"
-     },
-     "browserCode": {
-       "type": "string"
-     },
-     "browserFamily": {
-       "type": "string"
-     },
-     "browserFamilyDescription": {
-       "type": "string"
-     },
-     "browserIcon": {
-       "type": "string"
-     },
-     "browserName": {
-       "type": "string"
-     },
-     "browserVersion": {
-       "type": "string"
-     },
-     "campaignContent": {
-       "type": "string"
-     },
-     "campaignGroup": {
-       "type": "string"
-     },
-     "campaignId": {
-       "type": "string"
-     },
-     "campaignKeyword": {
-       "type": "string"
-     },
-     "campaignMedium": {
-       "type": "string"
-     },
-     "campaignName": {
-       "type": "string"
-     },
-     "campaignPlacement": {
-       "type": "string"
-     },
-     "campaignSource": {
-       "type": "string"
-     },
-     "city": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "continent": {
-       "type": "string"
-     },
-     "continentCode": {
-       "type": "string"
-     },
-     "country": {
-       "type": "string"
-     },
-     "countryCode": {
-       "type": "string"
-     },
-     "countryFlag": {
-       "type": "string"
-     },
-     "customVariables": {
-       "anyOf": [
-         {
-           "type": "array"
-         },
-         {
-           "properties": {
-             "1": {
-               "properties": {
-                 "customVariableName1": {
-                   "type": "string"
-                 },
-                 "customVariableValue1": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             },
-             "2": {
-               "properties": {
-                 "customVariableName2": {
-                   "type": "string"
-                 },
-                 "customVariableValue2": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             },
-             "4": {
-               "properties": {
-                 "customVariableName4": {
-                   "type": "string"
-                 },
-                 "customVariableValue4": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             },
-             "5": {
-               "properties": {
-                 "customVariableName5": {
-                   "type": "string"
-                 },
-                 "customVariableValue5": {
-                   "type": "string"
-                 }
-               },
-               "type": "object"
-             }
-           },
-           "type": "object"
-         }
-       ]
-     },
-     "daysSinceFirstVisit": {
-       "type": "integer"
-     },
-     "daysSinceLastEcommerceOrder": {
-       "type": "integer"
-     },
-     "daysSinceLastVisit": {
-       "type": "integer"
-     },
-     "deviceBrand": {
-       "type": "string"
-     },
-     "deviceModel": {
-       "type": "string"
-     },
-     "deviceType": {
-       "type": "string"
-     },
-     "deviceTypeIcon": {
-       "type": "string"
-     },
-     "dimension1": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "events": {
-       "type": "string"
-     },
-     "experiments": {
-       "items": {
-         "properties": {
-           "idexperiment": {
-             "type": "string"
-           },
-           "name": {
-             "type": "string"
-           },
-           "variation": {
-             "properties": {
-               "idvariation": {
-                 "type": [
-                   "integer",
-                   "string"
-                 ]
-               },
-               "name": {
-                 "type": "string"
-               }
-             },
-             "type": "object"
-           }
-         },
-         "type": "object"
-       },
-       "type": "array"
-     },
-     "fingerprint": {
-       "type": "string"
-     },
-     "firstActionTimestamp": {
-       "type": "integer"
-     },
-     "formConversions": {
-       "type": "integer"
-     },
-     "goalConversions": {
-       "type": "integer"
-     },
-     "idSite": {
-       "type": "string"
-     },
-     "idVisit": {
-       "type": "string"
-     },
-     "interactions": {
-       "type": "string"
-     },
-     "language": {
-       "type": "string"
-     },
-     "languageCode": {
-       "type": "string"
-     },
-     "lastActionDateTime": {
-       "type": "string"
-     },
-     "lastActionTimestamp": {
-       "type": "integer"
-     },
-     "latitude": {
-       "type": "string"
-     },
-     "location": {
-       "type": "string"
-     },
-     "longitude": {
-       "type": "string"
-     },
-     "operatingSystem": {
-       "type": "string"
-     },
-     "operatingSystemCode": {
-       "type": "string"
-     },
-     "operatingSystemIcon": {
-       "type": "string"
-     },
-     "operatingSystemName": {
-       "type": "string"
-     },
-     "operatingSystemVersion": {
-       "type": "string"
-     },
-     "plugins": {
-       "type": "string"
-     },
-     "pluginsIcons": {
-       "anyOf": [
-         {
-           "type": "null"
-         },
-         {
-           "items": {
-             "properties": {
-               "pluginIcon": {
-                 "type": "string"
-               },
-               "pluginName": {
-                 "type": "string"
-               }
-             },
-             "type": "object"
-           },
-           "type": "array"
-         }
-       ]
-     },
-     "referrerKeyword": {
-       "type": "string"
-     },
-     "referrerKeywordPosition": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "referrerName": {
-       "type": "string"
-     },
-     "referrerSearchEngineIcon": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "referrerSearchEngineUrl": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "referrerSocialNetworkIcon": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "referrerSocialNetworkUrl": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "referrerType": {
-       "type": "string"
-     },
-     "referrerTypeName": {
-       "type": "string"
-     },
-     "referrerUrl": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "region": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "regionCode": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "resolution": {
-       "type": "string"
-     },
-     "searches": {
-       "type": "string"
-     },
-     "secondsSinceFirstVisit": {
-       "type": "string"
-     },
-     "secondsSinceLastEcommerceOrder": {
-       "type": "string"
-     },
-     "secondsSinceLastVisit": {
-       "type": "string"
-     },
-     "serverDate": {
-       "type": "string"
-     },
-     "serverDatePretty": {
-       "type": "string"
-     },
-     "serverDatePrettyFirstAction": {
-       "type": "string"
-     },
-     "serverTimePretty": {
-       "type": "string"
-     },
-     "serverTimePrettyFirstAction": {
-       "type": "string"
-     },
-     "serverTimestamp": {
-       "type": "integer"
-     },
-     "sessionReplayUrl": {
-       "type": "null"
-     },
-     "siteCurrency": {
-       "type": "string"
-     },
-     "siteCurrencySymbol": {
-       "type": "string"
-     },
-     "siteName": {
-       "type": "string"
-     },
-     "totalAbandonedCarts": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "totalAbandonedCartsItems": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "totalAbandonedCartsRevenue": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "totalEcommerceConversions": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "totalEcommerceItems": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "totalEcommerceRevenue": {
-       "type": [
-         "integer",
-         "string"
-       ]
-     },
-     "userId": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "visitConverted": {
-       "type": "string"
-     },
-     "visitConvertedIcon": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "visitCount": {
-       "type": "string"
-     },
-     "visitDuration": {
-       "type": "string"
-     },
-     "visitDurationPretty": {
-       "type": "string"
-     },
-     "visitEcommerceStatus": {
-       "type": "string"
-     },
-     "visitEcommerceStatusIcon": {
-       "type": [
-         "null",
-         "string"
-       ]
-     },
-     "visitIp": {
-       "type": "string"
-     },
-     "visitLocalHour": {
-       "type": "string"
-     },
-     "visitLocalTime": {
-       "type": "string"
-     },
-     "visitServerHour": {
-       "type": "string"
-     },
-     "visitorId": {
-       "type": "string"
-     },
-     "visitorType": {
-       "type": "string"
-     },
-     "visitorTypeIcon": {
-       "type": "string"
-     }
-   },
-   "type": "object"
- }
+{
+  "$schema" : "http://json-schema.org/schema#",
+  "properties" : {
+    "actionDetails" : {
+      "items" : {
+        "properties" : {
+          "contentInteraction" : {
+            "type" : "null"
+          },
+          "contentName" : {
+            "type" : "string"
+          },
+          "contentPiece" : {
+            "type" : "string"
+          },
+          "contentTarget" : {
+            "type" : "string"
+          },
+          "converted" : {
+            "type" : "string"
+          },
+          "customVariables" : {
+            "properties" : {
+              "1" : {
+                "properties" : {
+                  "customVariablePageName1" : {
+                    "type" : "string"
+                  },
+                  "customVariablePageValue1" : {
+                    "type" : "string"
+                  }
+                },
+                "type" : [
+                  "object",
+                  "null"
+                ]
+              },
+              "2" : {
+                "properties" : {
+                  "customVariablePageName2" : {
+                    "type" : "string"
+                  },
+                  "customVariablePageValue2" : {
+                    "type" : "string"
+                  }
+                },
+                "type" : [
+                  "object",
+                  "null"
+                ]
+              },
+              "3" : {
+                "properties" : {
+                  "customVariablePageName3" : {
+                    "type" : "string"
+                  },
+                  "customVariablePageValue3" : {
+                    "type" : "string"
+                  }
+                },
+                "type" : [
+                  "object",
+                  "null"
+                ]
+              },
+              "4" : {
+                "properties" : {
+                  "customVariablePageName4" : {
+                    "type" : "string"
+                  },
+                  "customVariablePageValue4" : {
+                    "type" : "string"
+                  }
+                },
+                "type" : [
+                  "object",
+                  "null"
+                ]
+              },
+              "5" : {
+                "properties" : {
+                  "customVariablePageName5" : {
+                    "type" : "string"
+                  },
+                  "customVariablePageValue5" : {
+                    "type" : "string"
+                  }
+                },
+                "type" : [
+                  "object",
+                  "null"
+                ]
+              }
+            },
+            "type" : [
+              "array"
+            ]
+          },
+          "dimension2" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "dimension4" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "dimension5" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "eventAction" : {
+            "type" : "string"
+          },
+          "eventCategory" : {
+            "type" : "string"
+          },
+          "eventName" : {
+            "type" : "string"
+          },
+          "eventValue" : {
+            "type" : "integer"
+          },
+          "fields" : {
+            "items" : {
+              "properties" : {
+                "fieldName" : {
+                  "type" : "string"
+                },
+                "leftBlank" : {
+                  "type" : "string"
+                },
+                "submitted" : {
+                  "type" : "string"
+                },
+                "timeHesitation" : {
+                  "type" : "string"
+                },
+                "timeSpent" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            },
+            "type" : "array"
+          },
+          "formId" : {
+            "type" : "string"
+          },
+          "formName" : {
+            "type" : "string"
+          },
+          "formStatus" : {
+            "type" : "string"
+          },
+          "fullscreen" : {
+            "type" : "string"
+          },
+          "goalId" : {
+            "type" : "string"
+          },
+          "goalName" : {
+            "type" : "string"
+          },
+          "goalPageId" : {
+            "type" : "string"
+          },
+          "icon" : {
+            "type" : "string"
+          },
+          "iconSVG" : {
+            "type" : "string"
+          },
+          "idpageview" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "idsite" : {
+            "type" : "string"
+          },
+          "itemDetails" : {
+            "items" : {
+              "properties" : {
+                "categories" : {
+                  "items" : {
+                    "type" : "string"
+                  },
+                  "type" : "array"
+                },
+                "itemCategory" : {
+                  "type" : "string"
+                },
+                "itemName" : {
+                  "type" : "string"
+                },
+                "itemSKU" : {
+                  "type" : "string"
+                },
+                "price" : {
+                  "type" : [
+                    "integer",
+                    "string"
+                  ]
+                },
+                "quantity" : {
+                  "type" : "string"
+                }
+              },
+              "type" : "object"
+            },
+            "type" : "array"
+          },
+          "items" : {
+            "type" : "string"
+          },
+          "leftBlank" : {
+            "type" : "integer"
+          },
+          "media_length" : {
+            "type" : "string"
+          },
+          "media_progress" : {
+            "type" : "string"
+          },
+          "media_title" : {
+            "type" : "string"
+          },
+          "media_type" : {
+            "type" : "string"
+          },
+          "orderId" : {
+            "type" : "string"
+          },
+          "pageId" : {
+            "type" : "string"
+          },
+          "pageIdAction" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "pageTitle" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "pageviewPosition" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "player_name" : {
+            "type" : "string"
+          },
+          "referrerKeyword" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "referrerName" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "referrerType" : {
+            "type" : "string"
+          },
+          "resolution" : {
+            "type" : "string"
+          },
+          "revenue" : {
+            "type" : [
+              "integer",
+              "string"
+            ]
+          },
+          "revenueDiscount" : {
+            "type" : [
+              "integer",
+              "string"
+            ]
+          },
+          "revenueShipping" : {
+            "type" : "integer"
+          },
+          "revenueSubTotal" : {
+            "type" : "integer"
+          },
+          "revenueTax" : {
+            "type" : [
+              "integer",
+              "string"
+            ]
+          },
+          "serverTimePretty" : {
+            "type" : "string"
+          },
+          "siteSearchCategory" : {
+            "type" : "string"
+          },
+          "siteSearchCount" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "siteSearchKeyword" : {
+            "type" : "string"
+          },
+          "submitted" : {
+            "type" : "integer"
+          },
+          "subtitle" : {
+            "type" : "string"
+          },
+          "timeHesitation" : {
+            "type" : "string"
+          },
+          "timeSpent" : {
+            "type" : [
+              "integer",
+              "string"
+            ]
+          },
+          "timeSpentPretty" : {
+            "type" : "string"
+          },
+          "timeToFirstSubmission" : {
+            "type" : "string"
+          },
+          "time_to_initial_play" : {
+            "type" : "string"
+          },
+          "timestamp" : {
+            "type" : "integer"
+          },
+          "title" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "type" : {
+            "type" : "string"
+          },
+          "url" : {
+            "type" : [
+              "null",
+              "string"
+            ]
+          },
+          "watched_time" : {
+            "type" : "string"
+          }
+        },
+        "type" : "object"
+      },
+      "type" : "array"
+    },
+    "actions" : {
+      "type" : "string"
+    },
+    "adClickId" : {
+      "type" : "string"
+    },
+    "adProviderId" : {
+      "type" : "string"
+    },
+    "adProviderName" : {
+      "type" : "string"
+    },
+    "browser" : {
+      "type" : "string"
+    },
+    "browserCode" : {
+      "type" : "string"
+    },
+    "browserFamily" : {
+      "type" : "string"
+    },
+    "browserFamilyDescription" : {
+      "type" : "string"
+    },
+    "browserIcon" : {
+      "type" : "string"
+    },
+    "browserName" : {
+      "type" : "string"
+    },
+    "browserVersion" : {
+      "type" : "string"
+    },
+    "campaignContent" : {
+      "type" : "string"
+    },
+    "campaignGroup" : {
+      "type" : "string"
+    },
+    "campaignId" : {
+      "type" : "string"
+    },
+    "campaignKeyword" : {
+      "type" : "string"
+    },
+    "campaignMedium" : {
+      "type" : "string"
+    },
+    "campaignName" : {
+      "type" : "string"
+    },
+    "campaignPlacement" : {
+      "type" : "string"
+    },
+    "campaignSource" : {
+      "type" : "string"
+    },
+    "city" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "continent" : {
+      "type" : "string"
+    },
+    "continentCode" : {
+      "type" : "string"
+    },
+    "country" : {
+      "type" : "string"
+    },
+    "countryCode" : {
+      "type" : "string"
+    },
+    "countryFlag" : {
+      "type" : "string"
+    },
+    "customVariables" : {
+      "properties" : {
+        "1" : {
+          "properties" : {
+            "customVariablePageName1" : {
+              "type" : "string"
+            },
+            "customVariablePageValue1" : {
+              "type" : "string"
+            }
+          },
+          "type" : [
+            "object",
+            "null"
+          ]
+        },
+        "2" : {
+          "properties" : {
+            "customVariablePageName2" : {
+              "type" : "string"
+            },
+            "customVariablePageValue2" : {
+              "type" : "string"
+            }
+          },
+          "type" : [
+            "object",
+            "null"
+          ]
+        },
+        "3" : {
+          "properties" : {
+            "customVariablePageName3" : {
+              "type" : "string"
+            },
+            "customVariablePageValue3" : {
+              "type" : "string"
+            }
+          },
+          "type" : [
+            "object",
+            "null"
+          ]
+        },
+        "4" : {
+          "properties" : {
+            "customVariablePageName4" : {
+              "type" : "string"
+            },
+            "customVariablePageValue4" : {
+              "type" : "string"
+            }
+          },
+          "type" : [
+            "object",
+            "null"
+          ]
+        },
+        "5" : {
+          "properties" : {
+            "customVariablePageName5" : {
+              "type" : "string"
+            },
+            "customVariablePageValue5" : {
+              "type" : "string"
+            }
+          },
+          "type" : [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "type" : [
+        "array"
+      ]
+    },
+    "daysSinceFirstVisit" : {
+      "type" : "integer"
+    },
+    "daysSinceLastEcommerceOrder" : {
+      "type" : "integer"
+    },
+    "daysSinceLastVisit" : {
+      "type" : "integer"
+    },
+    "deviceBrand" : {
+      "type" : "string"
+    },
+    "deviceModel" : {
+      "type" : "string"
+    },
+    "deviceType" : {
+      "type" : "string"
+    },
+    "deviceTypeIcon" : {
+      "type" : "string"
+    },
+    "dimension1" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "events" : {
+      "type" : "string"
+    },
+    "experiments" : {
+      "items" : {
+        "properties" : {
+          "idexperiment" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "variation" : {
+            "properties" : {
+              "idvariation" : {
+                "type" : [
+                  "integer",
+                  "string"
+                ]
+              },
+              "name" : {
+                "type" : "string"
+              }
+            },
+            "type" : "object"
+          }
+        },
+        "type" : "object"
+      },
+      "type" : "array"
+    },
+    "fingerprint" : {
+      "type" : "string"
+    },
+    "firstActionTimestamp" : {
+      "type" : "integer"
+    },
+    "formConversions" : {
+      "type" : "integer"
+    },
+    "goalConversions" : {
+      "type" : "integer"
+    },
+    "idSite" : {
+      "type" : "string"
+    },
+    "idVisit" : {
+      "type" : "string"
+    },
+    "interactions" : {
+      "type" : "string"
+    },
+    "language" : {
+      "type" : "string"
+    },
+    "languageCode" : {
+      "type" : "string"
+    },
+    "lastActionDateTime" : {
+      "type" : "string"
+    },
+    "lastActionTimestamp" : {
+      "type" : "integer"
+    },
+    "latitude" : {
+      "type" : "string"
+    },
+    "location" : {
+      "type" : "string"
+    },
+    "longitude" : {
+      "type" : "string"
+    },
+    "operatingSystem" : {
+      "type" : "string"
+    },
+    "operatingSystemCode" : {
+      "type" : "string"
+    },
+    "operatingSystemIcon" : {
+      "type" : "string"
+    },
+    "operatingSystemName" : {
+      "type" : "string"
+    },
+    "operatingSystemVersion" : {
+      "type" : "string"
+    },
+    "plugins" : {
+      "type" : "string"
+    },
+    "pluginsIcons" : {
+      "anyOf" : [
+        {
+          "type" : "null"
+        },
+        {
+          "items" : {
+            "properties" : {
+              "pluginIcon" : {
+                "type" : "string"
+              },
+              "pluginName" : {
+                "type" : "string"
+              }
+            },
+            "type" : "object"
+          },
+          "type" : "array"
+        }
+      ]
+    },
+    "referrerKeyword" : {
+      "type" : "string"
+    },
+    "referrerKeywordPosition" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "referrerName" : {
+      "type" : "string"
+    },
+    "referrerSearchEngineIcon" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "referrerSearchEngineUrl" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "referrerSocialNetworkIcon" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "referrerSocialNetworkUrl" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "referrerType" : {
+      "type" : "string"
+    },
+    "referrerTypeName" : {
+      "type" : "string"
+    },
+    "referrerUrl" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "region" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "regionCode" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "resolution" : {
+      "type" : "string"
+    },
+    "searches" : {
+      "type" : "string"
+    },
+    "secondsSinceFirstVisit" : {
+      "type" : "string"
+    },
+    "secondsSinceLastEcommerceOrder" : {
+      "type" : "string"
+    },
+    "secondsSinceLastVisit" : {
+      "type" : "string"
+    },
+    "serverDate" : {
+      "type" : "string"
+    },
+    "serverDatePretty" : {
+      "type" : "string"
+    },
+    "serverDatePrettyFirstAction" : {
+      "type" : "string"
+    },
+    "serverTimePretty" : {
+      "type" : "string"
+    },
+    "serverTimePrettyFirstAction" : {
+      "type" : "string"
+    },
+    "serverTimestamp" : {
+      "type" : "integer"
+    },
+    "sessionReplayUrl" : {
+      "type" : "null"
+    },
+    "siteCurrency" : {
+      "type" : "string"
+    },
+    "siteCurrencySymbol" : {
+      "type" : "string"
+    },
+    "siteName" : {
+      "type" : "string"
+    },
+    "totalAbandonedCarts" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "totalAbandonedCartsItems" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "totalAbandonedCartsRevenue" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "totalEcommerceConversions" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "totalEcommerceItems" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "totalEcommerceRevenue" : {
+      "type" : [
+        "integer",
+        "string"
+      ]
+    },
+    "userId" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "visitConverted" : {
+      "type" : "string"
+    },
+    "visitConvertedIcon" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "visitCount" : {
+      "type" : "string"
+    },
+    "visitDuration" : {
+      "type" : "string"
+    },
+    "visitDurationPretty" : {
+      "type" : "string"
+    },
+    "visitEcommerceStatus" : {
+      "type" : "string"
+    },
+    "visitEcommerceStatusIcon" : {
+      "type" : [
+        "null",
+        "string"
+      ]
+    },
+    "visitIp" : {
+      "type" : "string"
+    },
+    "visitLocalHour" : {
+      "type" : "string"
+    },
+    "visitLocalTime" : {
+      "type" : "string"
+    },
+    "visitServerHour" : {
+      "type" : "string"
+    },
+    "visitorId" : {
+      "type" : "string"
+    },
+    "visitorType" : {
+      "type" : "string"
+    },
+    "visitorTypeIcon" : {
+      "type" : "string"
+    }
+  },
+  "type" : "object"
+}
