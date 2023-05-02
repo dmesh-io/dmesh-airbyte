@@ -10,12 +10,8 @@ streams:
     primary_key:
       - idVisit
     schema_loader:
-      type: InlineSchemaLoader
-      schema:
-        $schema: http://json-schema.org/draft-07/schema#
-        additionalProperties: true
-        properties: {}
-        type: object
+      type: JsonFileSchemaLoader
+      file_path: "./source_matomo_cloud/schemas/getLastVisits.json"
     retriever:
       type: SimpleRetriever
       requester:
@@ -52,7 +48,7 @@ streams:
           inject_into: request_parameter
         pagination_strategy:
           type: OffsetIncrement
-          page_size: 200
+          page_size: 10
 spec:
   connection_specification:
     $schema: http://json-schema.org/draft-07/schema#
