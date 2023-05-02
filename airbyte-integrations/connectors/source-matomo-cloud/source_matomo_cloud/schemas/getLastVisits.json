@@ -93,7 +93,7 @@
               }
             },
             "type" : [
-              "array"
+              "object", "array"
             ]
           },
           "dimension2" : {
@@ -293,14 +293,14 @@
             ]
           },
           "revenueShipping" : {
-            "type" : "integer"
+            "type" : "number"
           },
           "revenueSubTotal" : {
-            "type" : "integer"
+            "type" : ["string", "number"]
           },
           "revenueTax" : {
             "type" : [
-              "integer",
+              "number",
               "string"
             ]
           },
@@ -521,7 +521,7 @@
         }
       },
       "type" : [
-        "array"
+        "object", "array"
       ]
     },
     "daysSinceFirstVisit" : {
@@ -616,13 +616,13 @@
       "type" : "integer"
     },
     "latitude" : {
-      "type" : "string"
+      "type" : ["string", "null"]
     },
     "location" : {
       "type" : "string"
     },
     "longitude" : {
-      "type" : "string"
+      "type" : ["string", "null"]
     },
     "operatingSystem" : {
       "type" : "string"
@@ -733,7 +733,7 @@
       "type" : "string"
     },
     "secondsSinceLastEcommerceOrder" : {
-      "type" : "string"
+      "type" : ["null" ,"string"]
     },
     "secondsSinceLastVisit" : {
       "type" : "string"
@@ -856,7 +856,7 @@
       "type" : "string"
     },
     "visitorTypeIcon" : {
-      "type" : "string"
+      "type" : ["string", "null"]
     }
   },
   "type" : "object"
