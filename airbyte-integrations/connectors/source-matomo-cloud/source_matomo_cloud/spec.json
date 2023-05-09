@@ -1,0 +1,40 @@
+{
+  "connectionSpecification" : {
+    "$schema" : "http://json-schema.org/draft-07/schema#",
+    "additionalProperties" : true,
+    "properties" : {
+      "auth_token" : {
+        "airbyte_secret" : true,
+        "title" : "auth_token",
+        "type" : "string"
+      },
+      "format" : {
+        "default" : "json",
+        "enum" : [
+          "json",
+          "xml",
+          "csv"
+        ],
+        "title" : "format",
+        "type" : "string"
+      },
+      "id_site" : {
+        "default" : 6,
+        "title" : "id_site",
+        "type" : "integer"
+      },
+      "organization_name" : {
+        "title" : "Organization Name",
+        "type" : "string"
+      }
+    },
+    "required" : [
+      "format",
+      "id_site",
+      "auth_token",
+      "organization_name"
+    ],
+    "type" : "object"
+  },
+  "documentationUrl" : "https://example.org"
+}
