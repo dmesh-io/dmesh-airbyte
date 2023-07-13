@@ -341,7 +341,10 @@
             "type" : "string"
           },
           "time_to_initial_play" : {
-            "type" : "string"
+            "type" : [
+              "null",
+              "string"
+            ]
           },
           "timestamp" : {
             "type" : "integer"

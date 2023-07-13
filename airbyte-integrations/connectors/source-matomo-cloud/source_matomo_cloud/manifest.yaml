@@ -20,13 +20,13 @@ streams:
         path: /
         http_method: GET
         request_parameters:
-          date: yesterday
           format: '{{ config[''format''] }}'
           idSite: '{{ config[''id_site''] }}'
           method: Live.getLastVisitsDetails
           module: API
-          period: day
           token_auth: '{{ config[''auth_token''] }}'
+          period: '{{ config[''period''] }}'
+          date: '{{ config[''date''] }}'
         request_headers: {}
         request_body_json: {}
         authenticator:

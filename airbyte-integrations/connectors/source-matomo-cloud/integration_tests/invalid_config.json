@@ -1,6 +1,6 @@
 {
-  "auth_token": "illegalauthtoken",
+  "auth_token": null,
   "organization_name": "meinias",
-  "id_site": 6,
+  "id_site": 3,
   "format": "json"
 }
